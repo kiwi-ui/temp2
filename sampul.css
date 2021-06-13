@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen 
+  and (min-width : 321px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen 
+  and (max-width : 320px) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  /* Styles */
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen 
+  and (min-width : 1224px) {
+  /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen 
+  and (min-width : 1824px) {
+  /* Styles */
+  }
+  
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  }
+    
+    /* =======================================================
+    *
+    * 	Template Style 
+    *	Edit this section
+    *
+    * ======================================================= */
+  *{
+    box-sizing: border-box;
+  }
+html{
+background-color:#F2E8DC;
+  background-size: cover;
+}
+body{
+position: absolute;
+margin: 0;
+height: 100%;
+}
+
+.seksi0{
+  width: 100%;
+  height: 100%;
+  color:#590F23;
+
+  }
+  .filter{
+   position: fixed;
+    z-index: 1;
+    opacity: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+  .container{
+    height: 100%;
+  }
+
+  .judul{
+      font-size: 53px;
+      font-family: "sacramento";
+      display: block;
+      top: 20%;
+      text-align: center;
+      z-index: 3;
+      position: relative;
+      font-weight: bolder;
+
+  }
+
+  .foto{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+
+  #foto{
+    width: 70%;
+    z-index: 4;
+    border-radius: 50%;
+    position: relative;
+   }
+  .namapasangan{
+    font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    position: relative;
+    z-index: 4;
+    font-family: "sacramento";
+    font-weight: bold;
+    word-spacing: 9px;
+  }
+
+  .ucapan{
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    position: relative;
+    top: 31%;
+    z-index:4;
+    font-family: cursive;
+}
+
+  .tombol{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px; 
+    z-index:4;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    z-index: 4;
+    cursor:pointer;
+    width: 210px;
+    height: 43px;
+    border-radius: 25px 25px;
+  
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --locked-color: #f5bfed;
+    --unlocked-color: #ff5153;
+  }
+  .tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+  }
+  /* :::::::::::::: Required CSS */
+  /* Locked */
+  .lock {
+    width: 24px;
+    height: 21px;
+    border: 3px solid #F26D85;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .lock:after {
+    content: "";
+    display: block;
+    background:#F26D85;
+    width: 3px;
+    height: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -3.5px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .lock:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    bottom: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    border: 3px solid #F26D85;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  /* Locked Hover */
+  .lock:hover:before {
+    height: 12px;
+  }
+  /* Unlocked */
+  .unlocked {
+    transform: rotate(10deg);
+  }
+  .unlocked:before {
+    bottom: 130%;
+    left: 31%;
+    margin-left: -11.5px;
+    transform: rotate(-45deg);
+  }
+  .unlocked,
+  .unlocked:before {
+    border-color: var(--unlocked-color);
+  }
+  .unlocked:after {
+    background: var(--unlocked-color);
+  }
+  /* Unlocked Hover */
+  .unlocked:hover {
+    transform: rotate(3deg);
+  }
+  .unlocked:hover:before {
+    height: 10px;
+    left: 40%;
+    bottom: 124%;
+    transform: rotate(-30deg);
+  }
